@@ -1,0 +1,26 @@
+[
+  {
+    "id": "heritage-38", "name": "Heritage 38", "collection": "Classici", "subtitle": "L'eleganza ha il suo tempo.", "price": 4850, "badge": "Il più amato",
+    "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=1100&q=85",
+    "description": "Linee essenziali, proporzioni misurate e una raffinata anima meccanica. Heritage 38 interpreta l'orologio da sera con un quadrante chiaro, indici applicati e un cinturino in pelle. Un compagno discreto, pensato per ogni giorno.",
+    "reference": "AU-H38-001", "movement": "Automatico, calibro dimostrativo A-100", "reserve": "72 ore", "diameter": "38 mm", "thickness": "9,8 mm", "case": "Acciaio inossidabile 316L lucidato", "dial": "Avorio, indici applicati", "crystal": "Zaffiro bombato con trattamento antiriflesso", "strap": "Pelle marrone, larghezza 20 mm", "water": "5 bar (50 m)", "functions": "Ore, minuti, secondi centrali", "weight": "68 g", "warranty": "24 mesi (ipotetica, progetto demo)"
+  },
+  {
+    "id": "ocean-41", "name": "Ocean 41", "collection": "Sportivi", "subtitle": "Oltre la linea dell'orizzonte.", "price": 6200, "badge": "Nuova collezione",
+    "image": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=crop&w=1100&q=85",
+    "description": "Un segnatempo dal carattere deciso, ispirato alla profondità del mare. La lunetta girevole unidirezionale e gli indici luminescenti incontrano una cassa in acciaio e un bracciale a tre maglie, per un equilibrio fra precisione e presenza al polso.",
+    "reference": "AU-O41-002", "movement": "Automatico, calibro dimostrativo A-200", "reserve": "70 ore", "diameter": "41 mm", "thickness": "12,5 mm", "case": "Acciaio 316L, lunetta in ceramica", "dial": "Nero, indici luminescenti", "crystal": "Zaffiro piatto con doppio antiriflesso", "strap": "Bracciale in acciaio, larghezza 22 mm", "water": "30 bar (300 m)", "functions": "Ore, minuti, secondi, data, lunetta 60 minuti", "weight": "158 g", "warranty": "24 mesi (ipotetica, progetto demo)"
+  },
+  {
+    "id": "monza-42", "name": "Monza 42", "collection": "Cronografi", "subtitle": "Ogni secondo, una nuova emozione.", "price": 8450, "badge": "Edizione atelier",
+    "image": "https://images.unsplash.com/photo-1612817159949-195b6eb9e31a?auto=format&fit=crop&w=1100&q=85",
+    "description": "Il ritmo delle corse, tradotto in un cronografo meccanico. Monza 42 unisce una scala tachimetrica a contatori ad alto contrasto. Le finiture alternate della cassa catturano la luce, mentre i pulsanti sagomati richiamano gli strumenti delle auto da competizione.",
+    "reference": "AU-M42-003", "movement": "Automatico cronografo, calibro dimostrativo C-300", "reserve": "60 ore", "diameter": "42 mm", "thickness": "13,4 mm", "case": "Acciaio 316L satinato e lucidato", "dial": "Antracite, tre contatori argento", "crystal": "Zaffiro con trattamento antiriflesso", "strap": "Pelle nera traforata, larghezza 22 mm", "water": "10 bar (100 m)", "functions": "Ore, minuti, piccoli secondi, cronografo 12 ore, tachimetro", "weight": "96 g", "warranty": "24 mesi (ipotetica, progetto demo)"
+  },
+  {
+    "id": "luna-36", "name": "Luna 36", "collection": "Classici", "subtitle": "Una luce che resta.", "price": 7300, "badge": "Scelto dall'atelier",
+    "image": "https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?auto=format&fit=crop&w=1100&q=85",
+    "description": "Una silhouette preziosa e compatta, con dettagli dai toni caldi e un quadrante che lascia spazio alla luce. Luna 36 racconta una concezione intima del lusso, fatta di piccoli gesti, equilibrio e cura del dettaglio.",
+    "reference": "AU-L36-004", "movement": "Automatico, calibro dimostrativo L-150", "reserve": "48 ore", "diameter": "36 mm", "thickness": "10,2 mm", "case": "Acciaio 316L con rivestimento PVD oro rosa", "dial": "Champagne satinato soleil", "crystal": "Zaffiro bombato antiriflesso", "strap": "Bracciale bicolore, larghezza 18 mm", "water": "5 bar (50 m)", "functions": "Ore, minuti, secondi centrali, data", "weight": "112 g", "warranty": "24 mesi (ipotetica, progetto demo)"
+  }
+]

@@ -53,7 +53,7 @@ git commit -m "Descrivi la modifica"
 git push
 ```
 
-Non sono stati creati repository remoti, commit o pubblicazioni automaticamente: questi sono i comandi da eseguire con il tuo account. `.gitignore` esclude dipendenze, build e file di ambiente; `package-lock.json` va incluso nel repository.
+Il repository di questo progetto è [marcorpn96-wq/e-commerce](https://github.com/marcorpn96-wq/e-commerce). I comandi di inizializzazione qui sopra servono soltanto per creare un nuovo repository; per quello già collegato usa i comandi di aggiornamento. `.gitignore` esclude dipendenze, build e file di ambiente; `package-lock.json` è incluso nel repository.
 
 Caricare il codice su GitHub non pubblica automaticamente il sito. Per un hosting statico usa `npm.cmd run build` e pubblica il contenuto di `dist`. `HashRouter` genera URL come `/#/prodotti/heritage-38`, compatibili con hosting statici senza regole di riscrittura; `base: './'` consente percorsi relativi degli asset.
 

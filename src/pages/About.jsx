@@ -1,0 +1,6 @@
+import { Link } from 'react-router-dom';
+import { ArrowUpRight } from 'lucide-react';
+
+export default function About() {
+  return <section className="container page-section about-page"><span className="eyebrow">LA NOSTRA FILOSOFIA</span><h1>Il lusso di dare<br />valore al tempo.</h1><p className="intro">Aureo nasce come atelier digitale immaginario dedicato alla cultura dell’orologeria e alla bellezza delle cose che durano.</p><div className="about-banner" role="img" aria-label="Orologio fotografato in dettaglio" /><div className="about-columns"><h2>Una scelta personale.<br />Una passione condivisa.</h2><div><p>Crediamo che un segnatempo sia un piccolo universo: tecnica, proporzioni e materia che si incontrano al polso. La nostra selezione esplora quattro personalità, dall’essenzialità di Heritage alla vocazione sportiva di Ocean.</p><p>Questo sito è un progetto frontend dimostrativo. Aureo è un marchio inventato: non rappresenta un rivenditore, non vende prodotti reali e non offre certificazioni commerciali. Le fotografie esterne illustrano l’atmosfera della collezione.</p><Link className="text-link" to="/prodotti">Incontra la collezione <ArrowUpRight size={18} /></Link></div></div></section>;
+}
