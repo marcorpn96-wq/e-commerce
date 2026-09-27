@@ -55,7 +55,19 @@ git push
 
 Il repository di questo progetto è [marcorpn96-wq/e-commerce](https://github.com/marcorpn96-wq/e-commerce). I comandi di inizializzazione qui sopra servono soltanto per creare un nuovo repository; per quello già collegato usa i comandi di aggiornamento. `.gitignore` esclude dipendenze, build e file di ambiente; `package-lock.json` è incluso nel repository.
 
-Caricare il codice su GitHub non pubblica automaticamente il sito. Per un hosting statico usa `npm.cmd run build` e pubblica il contenuto di `dist`. `HashRouter` genera URL come `/#/prodotti/heritage-38`, compatibili con hosting statici senza regole di riscrittura; `base: './'` consente percorsi relativi degli asset.
+### Pubblicazione su GitHub Pages
+
+```powershell
+npm.cmd run deploy
+```
+
+Lo script `predeploy` compila automaticamente il progetto; `deploy` carica soltanto `dist` sul branch `gh-pages` del repository `origin` e aggiunge `.nojekyll`. Se la build fallisce, il deploy non parte. La dipendenza `gh-pages` è già inclusa: su una nuova copia del progetto esegui prima `npm.cmd ci`.
+
+Nelle impostazioni del repository, apri **Settings → Pages → Build and deployment**, scegli **Deploy from a branch**, seleziona **gh-pages** e **/ (root)**, poi salva. Questa configurazione va effettuata una sola volta. Il sito previsto è https://marcorpn96-wq.github.io/e-commerce/ e la pubblicazione può richiedere alcuni minuti; controlla l'esito in **Actions**.
+
+`npm.cmd run deploy` aggiorna il sito compilato. Per salvare anche le modifiche ai sorgenti su `main`, esegui separatamente commit e push come descritto sopra.
+
+`HashRouter` genera URL come `/#/prodotti/heritage-38`, compatibili con hosting statici senza regole di riscrittura; `base: './'` consente percorsi relativi degli asset anche sotto `/e-commerce/`.
 
 ## 3. Struttura
 
